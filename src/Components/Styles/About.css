@@ -1,0 +1,7 @@
+.about-con p{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    font-size: 2.5vh;
+    color: rgba(255,255,255,0.47);
+}

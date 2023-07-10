@@ -1,0 +1,19 @@
+.social-links{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    /* background-color: black; */
+}
+
+.social-link{
+    margin-right: 2vh;
+}
+
+.social-link img{
+    width: 35px;
+    filter: brightness(0.4);
+}
+
+.social-link img:hover{
+    filter: brightness(1);
+}

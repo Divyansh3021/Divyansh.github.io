@@ -1,0 +1,48 @@
+.btn{
+    background-color: #193756;
+    color: #4BB9C0;
+    border-radius: 40px;
+    padding: 0.7vh;
+    font-size: 1.8vh;
+    font-weight: 600;
+    width: max-content;
+    margin: 0.6vh;
+}
+
+.experience{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    padding: 2vh;
+    border-radius: 10px;
+    transition: ease-in 0.3s;
+}
+
+.experience:hover{
+    backdrop-filter: blur(5px);
+    background-color: rgba(245, 245, 245, 0.092);
+}
+
+.position{
+    font-size: 2.4vh;
+    font-weight: 600;
+    margin-bottom: 0.8vh;
+}
+
+.role-brief{
+    font-size: 2.1vh;
+    color: rgba(245, 245, 245, 0.46);
+}
+
+.duration{
+    min-width: 30%;
+    color: rgba(245, 245, 245, 0.46);
+
+}
+
+.techstack{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1vh;
+}
