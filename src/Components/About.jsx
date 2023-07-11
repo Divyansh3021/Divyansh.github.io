@@ -2,8 +2,16 @@ import React from 'react'
 import "./Styles/About.css"
 
 function About() {
+
+  function nav_change(){
+    document.getElementById("about").style.animation = "move-right 0.3s forwards ease";
+  }
+
+  function nav_return(){
+      document.getElementById("about").style.animation = "none";
+  }
   return (
-    <div className='about-con'>
+    <div className='about-con' onMouse onMouseOver={nav_change} onMouseLeave = {nav_return}>
         <p>
         Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of building software for an advertising agency, a start-up, a student-led design studio, and a huge corporation.
         </p>

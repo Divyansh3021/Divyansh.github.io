@@ -20,6 +20,7 @@
 
 @keyframes move-right {
     to{
+        margin-left: 3vw;
         color: whitesmoke;
     }
 }

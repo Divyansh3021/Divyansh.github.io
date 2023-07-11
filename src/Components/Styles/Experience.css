@@ -46,3 +46,34 @@
     flex-wrap: wrap;
     margin-top: 1vh;
 }
+
+.resume-link-con{
+    margin-top: 2vh;
+}
+
+.resume-link{
+    text-decoration: none;
+    padding-bottom: 1vh;
+    height: 10vh;
+    transition: all 1s;
+}
+
+.resume-link span{
+    padding-bottom: 2vh;
+}
+
+.resume-link:hover{
+    text-decoration: underline 2px solid rgba(255,255,255,0.47);
+}
+
+.proj_img{
+    width: 90%;
+}
+
+.highlight{
+    margin: 1vh 0vh 1vh 0vh;
+}
+
+.highlight:hover{
+    color: rgba(245, 245, 245, 0.46);
+}
