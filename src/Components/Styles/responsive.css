@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1024px){
+    .App{
+        flex-direction: column;
+    }
+    .left-side{
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-con{
+        width: 80%;
+        margin-bottom: 4vh;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .social-links{
+        width: 80%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .right-side{
+        width: 100%;
+        height: auto;
+    }
+
+    .about-con, .experience-con, .projects-con{
+        width: 80%;
+        margin-top: 4vh;
+    }
+
+    .experience{
+        width: 90%;
+        margin-top: 3vh;
+    }
+
+    .about-con p{
+        width: 100%;
+    }
+
+    .title{
+        display: flex;
+        margin: 2vh 0vh 2vh 0vh;
+    }
+}

@@ -15,7 +15,8 @@ function Projects() {
         }
   return (
 
-    <div onMouseEnter={nav_change} onMouseLeave = {nav_return}>
+    <div onMouseEnter={nav_change} onMouseLeave = {nav_return} className="projects-con">
+      <h3 className="title">Projects</h3>
         <Project img_src={devfeed} link="https://devfeed101.netlify.app/" title="Devfeed" proj_brief="Devfeed is a dynamic website that efficiently sends newsletters to subscribers, keeping them informed about upcoming events in the tech industry. The platform enhances engagement and fosters a vibrant community." highlight="100+ opensource contributors" stackList={ ["ReactJs", "MySQL"]} />
         <Project img_src={sign_lang} link="https://github.com/Divyansh3021/Sign-Language-Converter" title="Sign Language Interpreter" proj_brief="My Sign Language Converter project utilizes Python, TensorFlow object detection, and OpenCV to accurately interpret and convert sign language gestures into text or speech, aiding communication for the hearing-impaired." highlight="Object Detection" stackList={ ["TFOD", "OpenCV", "CNN"]} />
         <Project img_src={sports_judge} link="https://github.com/Divyansh3021/AI_sports_judge" title="AI Sports Judge" proj_brief="As part of my internship project, I developed an AI sports judge using Mediapipe. This innovative solution leverages computer vision to accurately assess and score sports performances, enhancing objectivity and efficiency in judging." highlight="Mediapipe, YOLO" stackList={ ["Python", "Flask", "Tensorflow"]} />

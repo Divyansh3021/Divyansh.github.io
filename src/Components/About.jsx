@@ -12,6 +12,8 @@ function About() {
   }
   return (
     <div className='about-con' onMouse onMouseOver={nav_change} onMouseLeave = {nav_return}>
+
+        <h3 className="title">About</h3>
         <p>
         Back in 2019, when I started my first coding language Python. Fast forward to today, I am digging deep in the domain of Artificial Intelligence, also I am MERN stack developer.
         </p>
