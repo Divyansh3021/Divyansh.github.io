@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar';
 import Projects from './Components/Projects';
 import Social from './Components/Social';
 import "./Components/Styles/responsive.css"
+import Writing from './Components/Writing';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <About/>
         <Experiences/>
         <Projects/>
+        <Writing/>
       </div>
       {/* {SpotlightCursor(e)} */}
     </div>

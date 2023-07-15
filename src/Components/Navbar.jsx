@@ -7,6 +7,7 @@ function Navbar() {
         <div className="nav-item" id='about'>About</div>
         <div className="nav-item" id='experience'>Experience</div>
         <div className="nav-item" id='projects'>Projects</div>
+        <div className="nav-item" id='writing'>Writing</div>
     </div>
   )
 }
