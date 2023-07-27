@@ -24,7 +24,7 @@ function nav_return(){
         <a href="https://infoxpression.tech/" target="_blank" rel="noreferrer" style={{textDecoration: "none"}}><Experience duration="2022" position="Website Developer . Infoxpression" role_brief="In my role as a Website Developer at Infoxpression, I utilize my expertise to create visually appealing and user-friendly websites, ensuring seamless functionality and optimal user experience." stackList={["ReactJs","TailwindCSS", "MongoDB", "NodeJs"]} /></a>
 
         <div className="resume-link-con">
-          <a href="https://drive.google.com/file/d/1FapuXYVqxfXH2o6SnYIGVZlkZac-Z5_b/view?usp=sharing" rel="noreferrer" target="_blank" className="resume-link"><span>View full Résumé</span></a>
+          <a href="https://drive.google.com/file/d/1ofIYtbGtPNDv7soz8OoMWPhzcHU-yekQ/view?usp=sharing" rel="noreferrer" target="_blank" className="resume-link"><span>View full Résumé</span></a>
         </div>
     </div>
   )
