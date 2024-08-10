@@ -17,7 +17,7 @@ function Projects() {
 
     <div onMouseEnter={nav_change} onMouseLeave = {nav_return} className="projects-con">
       <h3 className="title">Projects</h3>
-        <Project img_src={glpyh} link="https://theglyph.vercel.app/" title="Devfeed" proj_brief=" VS Code extension that effortlessly fetches and integrates past code, boosting productivity and streamlining your workflow. Boosted developer productivity by 40% by eliminating redundant coding tasks with Glyph’s intelligent features." stackList={ ["Langchain", "VectorDB", "Docker", "Javascript", "API", "NextJS"]} />
+        <Project img_src={glpyh} link="https://theglyph.vercel.app/" title="Glyph" proj_brief=" VS Code extension that effortlessly fetches and integrates past code, boosting productivity and streamlining your workflow. Boosted developer productivity by 40% by eliminating redundant coding tasks with Glyph’s intelligent features." stackList={ ["Langchain", "VectorDB", "Docker", "Javascript", "API", "NextJS"]} />
 
         <Project link="https://github.com/Divyansh3021/nile" title="Nile" proj_brief="Developed a program named Nile that let’s you ask question about the code in a Github repository with the help of cutting edge technology achieving accuracy up to 90%." stackList={ ["Large Language Models", "RAG", "Vector Databases"]} />
 
